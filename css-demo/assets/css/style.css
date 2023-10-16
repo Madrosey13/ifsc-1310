@@ -22,7 +22,7 @@ body {
   font-family: "Slackside One", cursive;
   margin: 0;
   background-image:url("../img/pumpkin-photo.jpg");
-  background-repeat:no-repeat;
+  background-repeat:repeat-y;
  
 }
 
@@ -126,6 +126,93 @@ article.post img {
 #practice h2{
   color:#f27405;
   border-bottom:3px dashed #f27405;
+}
+
+table{
+  border: 1px solid #f25c05;
+  width:100%;
+  border-collapse:collapse;
+  margin:20px 0;
+}
+
+caption{
+  font-weight:bold;
+  margin:10px;
+}
+
+tr:nth-child(even){
+  background-color:rgba(0,0,0,.1);
+}
+tr:hover{
+  background-color:rgba(0,0,0,0.2);
+}
+th{
+  background-color:#f2f2f2;
+  color:#f27405;
+  padding:10px;
+}
+td{
+  border: 1px solid #f25c05;
+  padding:5px;
+}
+td:nth-child(n+2){
+  text-align:right;
+}
+
+#practice ol{
+  clear:both;
+  list-style-type:katakana;
+}
+
+#practice ul{
+  list-style-type:"\1F44D";
+}
+#practice ul ul{
+  list-style-type:square;
+}
+
+dl{
+  background-color:#f29863;
+  color:#f2f2f2;
+  border-style:double;
+  border-color:#f25c05;
+  margin:auto;
+}
+
+dt{
+  font-weight:bold;
+}
+
+dd+dt{
+  margin-top:20px;
+}
+
+dd{
+  margin:0;
+}
+
+#practice h4{
+  color:#f27405;
+  border-left:5px solid #f27405;
+  padding-left:5px 10px;
+}
+
+#practice blockquote{
+  border:4px double #f29863;
+  padding:20px 40px;
+  margin:40px 80px;
+  border-radius:30px 0;
+  background-color:#f27405;
+  color:#f2f2f2;
+  line-height:1.4;
+  text-shadow:1px 1px #f29863;
+}
+
+#practice blockquote cite{
+display:block;
+text-align:right;
+font-size:.8rem;
+margin-top:10px;
 }
 
 aside[role="complementary"] {

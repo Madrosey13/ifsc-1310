@@ -21,8 +21,6 @@ body {
 
   font-family: "Slackside One", cursive;
   margin: 0;
-  background-image:url("../img/pumpkin-photo.jpg");
-  background-repeat:repeat-y;
  
 }
 
@@ -32,6 +30,7 @@ header.primary {
   text-shadow: 3px 3px #f27405;
   text-align: center;
   padding: 20px 40px;
+  background-image:url("../img/pumpkin-photo.jpg");
 }
 header.primary h1 {
   font-size: 2.4rem;
@@ -161,7 +160,7 @@ td:nth-child(n+2){
 
 #practice ol{
   clear:both;
-  list-style-type:katakana;
+  list-style-type:lower-roman;
 }
 
 #practice ul{
@@ -278,8 +277,9 @@ aside .container{
   float:right;
   margin:10px 0 10px 20px;
   border:5px double #f27405;
-  padding: 5px;
+  padding: 2px;
   box-shadow: 4px 4px 1px rgba(0,0,0,.4);
+  width:50%;
 }
 
 .img-left{
@@ -288,6 +288,7 @@ aside .container{
   border:5px double #f27405;
   padding: 5px;
   box-shadow: -4px 4px 1px rgba(0,0,0,.4);
+  width:50%
 }
 
 .img-center{
@@ -296,4 +297,5 @@ margin:20px auto;
 border:5px double #f29863;
 padding:5px;
 box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.4);
+width:70%;
 }

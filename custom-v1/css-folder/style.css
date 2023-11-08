@@ -1,0 +1,23 @@
+/*--Responsive Images--*/
+
+/*--Global Style--*/
+body{
+    background-color: #f2f2f2;
+}
+
+header.primary {
+    background-color: #f29863;
+    color:#f2f2f2;
+    text-align:center;
+}
+
+#introduction{
+    background-color:#f29863;
+    color:#f2f2f2;
+}
+#introduction h2{
+    text-align:center;
+}
+#introduction p{
+    text-align:center;
+}

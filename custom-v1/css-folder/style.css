@@ -64,6 +64,7 @@ header.primary nav ul li a{
 }
 header.primary nav ul li a:hover{
     background-color: rgba(240, 240, 240, 0.8);
+    color:#f27405;
 }
 
 /*-Intro Style-*/

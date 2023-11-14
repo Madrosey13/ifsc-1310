@@ -10,17 +10,31 @@ html {
     box-sizing: inherit;
   }
 
-/*--Global Style--*/
+/*---Global Style---*/
+
+/*-Body Style-*/
 body{
     background-color: #f2f2f2;
 
     font-family: 'Karla', sans-serif;
 }
 
+/*-Header Style-*/
 header.primary {
     background-color: #f29863;
     color:#f2f2f2;
     text-align:center;
+    padding:20px 40px;
+}
+
+header.primary h1{
+    font-size:2.9rem;
+    margin:20px 0 0px;
+}
+
+header.primary h2{
+    font-size:1.6rem;
+    margin:0;
 }
 
 header.primary nav {
@@ -49,7 +63,23 @@ header.primary nav ul li a{
     transition:0.2s;
 }
 header.primary nav ul li a:hover{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+/*-Intro Style-*/
+#intro h2{
+    color: #f27405;
+}
+
+/*-Content Style-*/
+#content h2{
+    color:#f27405;
+}
+
+
+/*-Contact Page-*/
+label, input{
+    display:block;
 }
 
 /*--Media Queries--*/

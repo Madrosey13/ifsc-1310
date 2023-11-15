@@ -19,9 +19,10 @@ html {
 
 /*-Body Style-*/
 body{
-    background-color: #3B3854;
+    background-color: #f2f2f2;
 
     font-family: 'Karla', sans-serif;
+    margin:10px;
 }
 
 /*-Header Style-*/
@@ -33,13 +34,13 @@ header.primary {
 }
 
 header.primary h1{
-    font-size:2.9rem;
+    font-size:3.0rem;
     margin:20px 0 0px;
 }
 
 header.primary h2{
     font-size:1.6rem;
-    margin:0;
+    margin:5px;
 }
 
 header.primary nav {
@@ -51,7 +52,7 @@ header.primary nav ul {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0;
+    padding:20px;
 }
 header.primary nav ul li{
     list-style-type: none;
@@ -64,7 +65,7 @@ header.primary nav ul li a{
     background-color: rgba(0,0,0,0.4);
     padding: 1px 10px;
     border: 1px ridge #f2f2f2;
-    border-radius: 20px;
+    border-radius: 30px;
     transition:0.2s;
 }
 header.primary nav ul li a:hover{
@@ -79,7 +80,7 @@ header.primary nav ul li a:hover{
 }
 
 #intro p{
-    color:#f2f2f2;
+    color:black;
     text-align:center;
 }
 
@@ -88,6 +89,10 @@ header.primary nav ul li a:hover{
     color:#f27405;
 }
 
+/*-Footer Style-*/
+#colophon h6{
+    text-align:center;
+}
 
 /*-Contact Page-*/
 label, input{

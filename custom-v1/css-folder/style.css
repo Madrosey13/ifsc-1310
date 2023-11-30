@@ -29,8 +29,9 @@ body{
 header.primary {
     color:#f2f2f2;
     text-align:center;
-    padding:20px 40px;
+    padding:30px 50px;
     background-image:url(../img-folder/moving-carousel.gif);
+    background-repeat: no-repeat;
 }
 
 header.primary h1{
@@ -87,6 +88,19 @@ header.primary nav ul li a:hover{
 /*-Content Style-*/
 #content h2{
     color:#f27405;
+}
+
+/*-Aside Style-*/
+aside[role="complementary"]{
+    background-color:#f27405;
+    color:#f2f2f2;
+    padding: 1.9rem;
+}
+
+aside .container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px
 }
 
 /*-Footer Style-*/

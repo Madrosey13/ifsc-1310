@@ -2,5 +2,57 @@
 body{
     background-color:#f2f2f2;
     font-family: 'Pacifico', cursive;
-    margin:0;
+    margin:20px;
+}
+
+header.primary{
+    color:#f27405;
+    text-align:center;
+    font-size:2.1rem;
+    padding:20px 30px;
+    border-bottom: 3px dashed #f27405;
+}
+
+#websites{
+    color:#f27405;  
+}
+
+#websites ul li a{
+    color:#f29863;
+    text-decoration:none;
+}
+
+#positioning{
+    color:#f27405;
+}
+
+#positioning ul li a{
+    color:#f29863;
+    text-decoration:none;
+}
+
+#screenshots{
+    color:#f27405;
+    border-bottom: 3px dashed #f27405;
+}
+
+#screenshots ul li a{
+    color:#f29863;
+    text-decoration:none;
+}
+
+#writings h2{
+    color:#f27405;
+}
+
+#writings h3{
+    color:#f27405;
+}
+
+#writings p{
+    color:#f29863;
+}
+
+#writings a{
+    color:#f29863;
 }

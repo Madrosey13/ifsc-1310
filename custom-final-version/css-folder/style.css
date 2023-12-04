@@ -78,16 +78,23 @@ header.primary nav ul li a:hover{
 #intro h2{
     color: #f27405;
     text-align:center;
+    font-size:2.5rem;
 }
 
 #intro p{
     color:black;
     text-align:center;
+    font-size:1.2rem;
 }
 
 /*-Content Style-*/
 #content h2{
     color:#f27405;
+    font-size:2.5rem;
+}
+
+#content p{
+    font-size: 1.2rem;
 }
 
 /*-Aside Style-*/

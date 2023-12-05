@@ -76,7 +76,7 @@ header.primary nav ul li a:hover{
 
 /*-Intro Style-*/
 #intro h2{
-    color: #f27405;
+    color: #99403A;
     text-align:center;
     font-size:2.5rem;
 }
@@ -85,21 +85,27 @@ header.primary nav ul li a:hover{
     color:black;
     text-align:center;
     font-size:1.2rem;
+    padding:10px;
 }
 
 /*-Content Style-*/
 #content h2{
-    color:#f27405;
+    color:#99403A;
     font-size:2.5rem;
 }
 
 #content p{
     font-size: 1.2rem;
+    margin:12px;
+}
+
+#content p em{
+    color:#f2f2f2;
 }
 
 /*-Aside Style-*/
 aside[role="complementary"]{
-    background-color:#f27405;
+    background-color:#99403A;
     color:#f2f2f2;
     padding: 1.9rem;
 }
@@ -118,6 +124,11 @@ aside .container{
 /*-Contact Page-*/
 label, input{
     display:block;
+}
+
+/*-FAQ Page-*/
+#content em{
+    color:#f2f2f2
 }
 
 /*--Media Queries--*/
